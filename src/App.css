@@ -1,38 +1,106 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  width: 100%;
+  height: fit-content;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
-.App-link {
-  color: #61dafb;
+.section {
+  margin: auto;
+  width: 98%;
+  height: 96vh;
+  background-color: rgb(162, 0, 255);
+  border: solid rgba(0, 0, 0, 0.966);
+  text-align: center;
+  border-width: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#one {
+  background-image: url("./one.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#two {
+  background-image: url("./two.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#three {
+  background-image: url("./jo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#four {
+  background-image: url("./hard.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 30vh;
+  font-size: 3rem;
+}
+
+p {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50vh;
+  width: 90%;
+  margin: auto;
+  white-space: pre-line;
+}
+
+.blur {
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(0px);
+  height: 96vh;
+  width: 100%;
+  position: relative;
+  transition: 0.8s ease-in;
+  color: rgba(0, 0, 0, 0);
+}
+
+.blur:hover {
+  background: rgba(56, 56, 56, 0.178);
+  backdrop-filter: blur(15px);
+  height: 96vh;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  width: 95%;
+  height: fit-content;
+  max-height: 60vh;
+  min-height: 50vh;
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
+}
+
+@media only screen and (max-width: 1250px) {
+  .App {
+    grid-template-columns: auto auto;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    grid-template-columns: auto;
+  }
+  p {
+    font-size: 0.8rem;
   }
 }
