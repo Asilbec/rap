@@ -51,6 +51,9 @@ h1 {
   right: 0;
   top: 30vh;
   font-size: 3rem;
+  -webkit-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 p {
@@ -61,6 +64,9 @@ p {
   width: 90%;
   margin: auto;
   white-space: pre-line;
+  -webkit-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .blur {
