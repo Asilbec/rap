@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <div id='one' className='section'>
-        <div class="blur">
+        <div onclick="" class="blur">
           <h1>Kanye West</h1>
           <p>
             Got treasures in my mind but couldn't open up my own vault {'\n'}
@@ -24,7 +24,7 @@ function App() {
         </div>
       </div>
       <div id='two' className='section'>
-        <div class="blur">
+        <div onclick="" class="blur">
           <h1>Kid Cudi</h1>
           <p>
             I know it's easy to imagine, {'\n'}
@@ -41,7 +41,7 @@ function App() {
         </div>
       </div>
       <div id='three' className='section'>
-        <div class="blur">
+        <div onclick="" class="blur">
           <h1>J Cole</h1>
           <p>
             On the road to riches, listen, this is what you'll find {'\n'}
@@ -52,7 +52,7 @@ function App() {
 
       </div>
       <div id='four' className='section'>
-        <div class="blur">
+        <div onclick="" class="blur">
           <h1>A$AP Rocky</h1>
           <p>It's the irony how LSD inspired me to reach the high in me {'\n'}
             Used to never give a damn now I don't give a fuck entirely {'\n'}
