@@ -54,6 +54,9 @@ h1 {
   -webkit-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-transform: translateZ(0);
 }
 
 p {
@@ -67,6 +70,12 @@ p {
   -webkit-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 .blur {
